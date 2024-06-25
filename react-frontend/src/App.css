@@ -1,0 +1,76 @@
+.App{
+  border: 2px solid rgb(187, 187, 187);
+  border-radius: 5px;
+    margin: 50px 200px;
+    padding: 25px 15px; 
+    
+  }
+  h1{
+    margin-left: 30px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .container ul li{
+    width: 50%;
+    overflow-wrap: break-word;
+    list-style-type: "👉🏻";
+    cursor:pointer;
+    
+  }
+  .done{
+    text-decoration: line-through;
+  }
+  .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 10px;
+
+
+
+  } 
+  .item:hover{
+    background-color: gainsboro;
+  }
+  .trash{
+    cursor: pointer;
+    
+  }
+  .edit-text{
+    cursor:pointer ;
+  }
+  button{
+    margin:10px 20px 0px 35px;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);;
+    padding: 5px;
+    cursor: pointer;
+
+    }
+    
+  button:hover{
+      
+      background-color: gainsboro;
+    }
+    input{
+      margin:10px 20px 0px 35px;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);;
+    padding: 5px;
+    }
+    
+  
+
+  
+  
+  
+  
+    
+  
